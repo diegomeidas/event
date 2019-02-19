@@ -1,0 +1,40 @@
+.carrosel{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 2px;
+}
+
+.carroselimage{
+    background-color: bisque;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.carroselimage p, h5{
+    color: rgb(59, 57, 57);
+}
+
+.bg-light {    
+    background-color: #5c3264 !important;
+    
+    border-radius: 5px;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color:  #bc9bf3 !important;
+  }
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: peru !important;
+}
+
+.myfooter{
+    background-color: #5c3264 !important;
+    padding-top: 10px;
+    color: white;
+    
+}
