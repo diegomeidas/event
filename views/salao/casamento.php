@@ -3,6 +3,7 @@
 ?>
 <!---------------------------------------------Carousel-------------------------------------------->
 <div class="carrosel">  
+<div class="shadow p-3 mb-5 bg-white rounded">
 <div class="bd-example">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -43,6 +44,7 @@
         </a>
       </div>
     </div>
+</div>
   </div>
 
   <div class="container">

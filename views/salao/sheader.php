@@ -25,8 +25,89 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="/Bootst/views/default/index.php"><i class="fa fa-home"></i></a>    
-    </nav> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><img src="/event/res/img/evento.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="/event/views/default/index.php">Home <span class="sr-only">(current)</span></a>
+              </li>
+    
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Salões
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="../salao/casamento.php">Casamentos</a>
+                    <a class="dropdown-item" href="#">Formaturas</a>
+                    <a class="dropdown-item" href="#">Aniversários</a>
+                  </div>
+              </li>
+    
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Buffet
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Casamentos</a>
+                      <a class="dropdown-item" href="#">Formaturas</a>
+                      <a class="dropdown-item" href="#">Aniversários</a>
+                    </div>
+                  </li>
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Aluguel de trajes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Casamentos</a>
+                  <a class="dropdown-item" href="#">Formaturas</a>
+                  <a class="dropdown-item" href="#">Debutantes</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Vídeo / Fotografia
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Casamentos</a>
+                  <a class="dropdown-item" href="#">Formaturas</a>
+                  <a class="dropdown-item" href="#">Aniversários</a>
+                  <a class="dropdown-item" href="#">Gestantes</a>
+                  <a class="dropdown-item" href="#">Bebês</a>
+                </div>
+              </li>
+
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="/Bootst/views/default/index.php">Bolos e Doces <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="/Bootst/views/default/index.php">Cerimonialista <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="/Bootst/views/default/index.php">Convites <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="/Bootst/views/default/index.php">Segurança <span class="sr-only">(current)</span></a>
+              </li>
+    
+            </ul>
+          </div>
+    
+        </nav>
   </header>
   

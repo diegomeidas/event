@@ -82,6 +82,14 @@ h1{
     background: #2f3238;
 }
 
+.borda2{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .local{
     color: black;
     
@@ -94,9 +102,9 @@ h1{
         
 }
 .fa-home{
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
+    /*border: 1px solid black;
+    border-radius: 5px; */
+    padding: 10px; 
     font-size: 2rem;
 }
 

@@ -95,31 +95,66 @@
 </div>
 
 <div class="container">
-  <div class="jumbotron">
-    <center><h1 style="color: black">Faça seu orçamento</h1></center>
-      <div class="row">
-        <div class="col-md-3"></div>
+
+<div class="row">
+
+        <div class="col-md-4"> 
+        <div class="jumbotron">       
+          <div id="fb-root"></div>
+            <script async defer src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2"></script>        
+            <div class="fb-page" data-href="https://www.facebook.com/sapatosdaday/" data-tabs="timeline"
+                data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/sapatosdaday/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/sapatosdaday/">Sapatos da Day</a></blockquote></div>
+        
+        </div>
+
+</div>
+  
+    
+      
+
+        <div class="col-md-1"></div>
 
         <div class="col-md-6">
+        <div class="borda2">
+        <center><h1 style="color: black">Faça seu orçamento</h1></center>
           <br/>
           <form action="" method="">
 
             <label>Nome</label>
             <input type="text" class="form-control">
             <br/>
-            <label>Data</label>
-            <input type="date" class="form-control">
-            <br/>
-            <label>Qtde de pessoas</label>
-            <input type="text" class="form-control">
-            <br/>
+
+            <div class="row">
+              <div class="col-md-7">
+                <label>Data</label>
+                <input type="date" class="form-control">
+                <br/>
+              </div>
+              <div class="col-md-5">
+                <label>Qtde de pessoas</label>
+                <input type="text" class="form-control">
+                <br/>
+              </div>
+            </div>
+
             <label>Telefone</label>
             <input type="phone" class="form-control">
+            <br/>
 
+            <label>Email</label>
+            <input type="email" class="form-control">
+            <br/>
+            <input type="submit" value="Enviar" class="form-control btn-primary">
+            
     
           </form>
+
+          
+
         </div>
-        <div class="col-md-3"></div>
+        <div class="col-md-1"></div>
       </div>
   </div>
 </div>

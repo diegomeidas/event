@@ -38,3 +38,9 @@
     color: white;
     
 }
+
+.navbar img{
+    width: 90px;
+    height: 50px;
+    margin: -10px;
+}
