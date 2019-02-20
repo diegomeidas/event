@@ -63,6 +63,12 @@
 
   <script src="../../res/bootstrap-4.3.1/js/bootstrap.js"></script>
   <script src="../../res/js/script.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 </body>
 
 </html>

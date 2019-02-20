@@ -1,13 +1,16 @@
 <?php
   include'sheader.php'
 ?>
+<br/>
 <center><h1 class="local">Salão Pinheiro</h1></center>
+<br/>
+
+<!--
+  <div class="borda">      
     
-    <div class="borda">
       <center><h1>Galeria</h1></center>
-      <div class="wrapper">
-        
-
+      
+        <div class="wrapper">
           <div class="box" style="background-image: url(../../res/image/img1.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img2.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img3.jpg)"></div>
@@ -19,10 +22,8 @@
           <div class="box" style="background-image: url(../../res/image/img1.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img3.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img5.jpg)"></div>
-
-      </div>
-      <div class="wrapper">
-
+        </div>
+        <div class="wrapper">
           <div class="box" style="background-image: url(../../res/image/img1.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img2.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img3.jpg)"></div>
@@ -34,10 +35,8 @@
           <div class="box" style="background-image: url(../../res/image/img1.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img3.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img5.jpg)"></div>
-
-      </div>
-      <div class="wrapper">
-
+        </div>
+        <div class="wrapper">
           <div class="box" style="background-image: url(../../res/image/img1.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img2.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img3.jpg)"></div>
@@ -49,11 +48,216 @@
           <div class="box" style="background-image: url(../../res/image/img1.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img3.jpg)"></div>
           <div class="box" style="background-image: url(../../res/image/img5.jpg)"></div>
+        </div>
+    
+  </div>
 
-          
+-->
 
-      </div>
+
+
+
+<div class="borda">
+  <div class="gallery-container">
+
+    
+
+    <p class="page-description text-center">Galeria</p>
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/img1.jpg">
+                    <img src="../../res/image/img1.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/img2.jpg">
+                    <img src="../../res/image/img2.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/tunnel.jpg">
+                    <img src="../../res/image/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/coast.jpg">
+                    <img src="../../res/image/coast.jpg" alt="Coast">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rails.jpg">
+                    <img src="../../res/image/rails.jpg" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/traffic.jpg">
+                    <img src="../../res/image/traffic.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rocks.jpg">
+                    <img src="../../res/image/rocks.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/benches.jpg">
+                    <img src="../../res/image/benches.jpg" alt="Benches">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/sky.jpg">
+                    <img src="../../res/image/sky.jpg" alt="Sky">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rocks.jpg">
+                    <img src="../../res/image/rocks.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/benches.jpg">
+                    <img src="../../res/image/benches.jpg" alt="Benches">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/sky.jpg">
+                    <img src="../../res/image/sky.jpg" alt="Sky">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rocks.jpg">
+                    <img src="../../res/image/rocks.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/benches.jpg">
+                    <img src="../../res/image/benches.jpg" alt="Benches">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/sky.jpg">
+                    <img src="../../res/image/sky.jpg" alt="Sky">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rocks.jpg">
+                    <img src="../../res/image/rocks.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/benches.jpg">
+                    <img src="../../res/image/benches.jpg" alt="Benches">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/sky.jpg">
+                    <img src="../../res/image/sky.jpg" alt="Sky">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/img2.jpg">
+                    <img src="../../res/image/img2.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/tunnel.jpg">
+                    <img src="../../res/image/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/coast.jpg">
+                    <img src="../../res/image/coast.jpg" alt="Coast">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rails.jpg">
+                    <img src="../../res/image/rails.jpg" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/traffic.jpg">
+                    <img src="../../res/image/traffic.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rocks.jpg">
+                    <img src="../../res/image/rocks.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/img2.jpg">
+                    <img src="../../res/image/img2.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/tunnel.jpg">
+                    <img src="../../res/image/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/coast.jpg">
+                    <img src="../../res/image/coast.jpg" alt="Coast">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rails.jpg">
+                    <img src="../../res/image/rails.jpg" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/traffic.jpg">
+                    <img src="../../res/image/traffic.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rocks.jpg">
+                    <img src="../../res/image/rocks.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/img2.jpg">
+                    <img src="../../res/image/img2.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/tunnel.jpg">
+                    <img src="../../res/image/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/coast.jpg">
+                    <img src="../../res/image/coast.jpg" alt="Coast">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rails.jpg">
+                    <img src="../../res/image/rails.jpg" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/traffic.jpg">
+                    <img src="../../res/image/traffic.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                <a class="lightbox" href="../../res/image/rocks.jpg">
+                    <img src="../../res/image/rocks.jpg" alt="Rocks">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
 </div>
+</div>
+
+
+
+
+
 
 <br/>   
 
@@ -71,8 +275,8 @@
                 <a class="text-dark" href="#">Salão Pinheiro</a>
               </h3>
               <div class="mb-1 text-muted">Rua José Félix dos Santos, 93, Residencial Carandá - Presidente Prudente</div>
-              <div class="mb-1 text-muted"><span class="fas fa-whatsapp">(18) 99727-9377</span></div>
-              <div class="mb-1 text-muted"><span class="fas fa-phone">(18) 3222-2222</span></div>
+              <div class="mb-1 text-muted"><span class="fas fa-phone">&nbsp &nbsp (18) 99727-9377 &nbsp &nbsp &nbsp &nbsp</span><span class="fab fa-whatsapp"></span></div>
+              <div class="mb-1 text-muted"><span class="fas fa-phone">&nbsp &nbsp (18) 3222-2222</span></div>
               
               
             </div>

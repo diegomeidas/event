@@ -24,8 +24,14 @@ $("div").click(function () {
 })
 
 
-function mostrar(){
+$("li").mouseover(function () {
 
-}
+    $(this).toggleId('#navbarDropdownMenuLink');
 
-const selecionado = document.getElementsByClassName('box');
+})
+
+$("li").mouseleave(function () {
+
+    $(this).toggleId('#navbarDropdownMenuLink');
+
+})

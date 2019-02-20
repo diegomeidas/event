@@ -3,6 +3,37 @@
     padding: 0;
 }
 
+
+
+
+/*---------------------------------------------Variados----------------------------------*/
+.borda{
+    background: #2f3238;
+}
+
+.borda2{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding-bottom: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*nome do estabelecimento*/
+.local{
+    color: black;    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*logotipo*/
+.myimage{
+    width: 300px;
+    height: 200px;
+        
+}
+
+
+/*-------------------------------------------------------Galeria 1-----------------------------*/
 body{
     /*display: flex;
     justify-content: center;
@@ -30,7 +61,7 @@ h1{
 }
 
 .wrapper div{
-   width: 100px;
+    width: 100px;
     height: 70px;
     margin: 5px;
     cursor: pointer;
@@ -78,42 +109,104 @@ h1{
     }
 }
 
-.borda{
-    background: #2f3238;
-}
 
-.borda2{
-    border: 1px solid black;
-    border-radius: 5px;
-    padding-bottom: 130px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
-.local{
-    color: black;
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------Galeria 2-------------------------*/
+body {
+    /*background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+    min-height: 100vh;
+    font: normal 16px sans-serif;*/
     
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.myimage{
-    width: 300px;
-    height: 200px;
-        
-}
-.fa-home{
-    /*border: 1px solid black;
-    border-radius: 5px; */
-    padding: 10px; 
-    font-size: 2rem;
+.gallery-container {
+    
+    color: #35373a;
+    /*min-height: 100vh;*/
+    /*border-radius: 20px;*/
+    /*box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);*/
+    
+    
 }
 
-.icone{
-    font-size: 1.5rem;
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 5px auto;
+    color: #888;
+    font-size: 38px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    
+    margin-bottom: 10px;
+    transition: 0.2s ease-in-out;
+    /*box-shadow: 0 2px 3px rgba(0,0,0,0.2);*/
+   
 }
 
 
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.70);
+    /*box-shadow: 0 8px 15px rgba(0,0,0,0.3);*/
+    box-shadow: 0 8px 15px rgba(250, 244, 255, 0.8);
+    z-index: 1;
+}
 
+.tz-gallery img {
+    border-radius: 4px;
+
+    width: 90px;
+    height: 70px;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .gallery-container {
+        border-radius: 0;
+    }
+
+    .tz-gallery img {
+        border-radius: 4px;    
+        width: 160px;
+        height: 100px;
+    
+        margin-left: 20px;
+    }
+}
 
 
 
